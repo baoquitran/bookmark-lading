@@ -17,6 +17,9 @@ a{
   text-decoration: none;
   color: black;
 }
+input{
+  outline: none;
+}
 .section-padding{
   padding: 100px 0;
 }
