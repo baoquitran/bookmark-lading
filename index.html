@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Bookmark</title>
+</head>
+<body>
+  <!-- header -->
+    <header>
+      <div class="container flex header-container">
+        <h1 class="logo">
+          <img src="images/logo-bookmark.svg" alt="">
+        </h1>
+        <nav class="main-nav">
+          <ul class="main-menu">
+            <li><a href="">Features</a></li>
+            <li><a href="">pricing</a></li>
+            <li><a href="">contact</a></li>
+          </ul>
+          <div class="header-btn">
+            <button>login</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- hero -->
+    <secticon class="hero section-padding">
+      <div class="container flex hero-container">
+        <div class="hero-img">
+          <img src="images/illustration-hero.svg" alt="">
+        </div>
+        <div class="hero-content">
+          <h2>a simple bookmark <br> manager</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, ab, odio. Laboriosam debitis rem beatae in.</p>
+          <div class="hero-btn">
+            <button>get it on chrome</button>
+            <button>get it on firefox</button>
+          </div>
+        </div>
+      </div>
+    </secticon>
+    <!-- end hero -->
+
+    <!-- features -->
+    <section class="features section-padding">
+      <!-- title -->
+      <div class="section-title flex">
+        <h3>features</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla officiis ad corrupti numquam distinctio nostrum quasi neque vero cum. Ducimus aut vero et sequi quis aliquam illo adipisci doloremque eius.</p>
+      </div>
+      <!-- end of title -->
+
+      <!-- tab links -->
+      <div class="feature-tab flex">
+        <div class="tablinks active" onclick="openCity(event, 'tab1')">simple bookmarking</div>
+        <div class="tablinks" onclick="openCity(event, 'tab2')">sppedy sreaching</div>
+        <div class="tablinks" onclick="openCity(event, 'tab3')">easy sharing</div>
+      </div>
+      <!-- end of tab links -->
+
+      <!-- tab content -->
+      <div class="feature-tab-content flex">
+
+        <!-- tab -->
+        <div id="tab1" class="tabcontent">
+          <div class="tab-img-left">
+            <img src="images/illustration-features-tab-1.svg" alt="">
+          </div>
+          <div class="tabcontent-right">
+            <h3>bookmark in one click</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas porro asperiores excepturi labore dolor dolores, quidem enim, possimus, officiis harum similique quasi.</p>
+            <button>more info</button>
+          </div>
+        </div>
+        <!-- end of tab -->
+
+        <!-- tab -->
+        <div id="tab2" class="tabcontent">
+          <div class="tab-img-left">
+            <img src="images/illustration-features-tab-2.svg" alt="">
+          </div>
+          <div class="tabcontent-right">
+            <h3>bookmark in one click</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas porro asperiores excepturi labore dolor dolores, quidem enim, possimus, officiis harum similique quasi.</p>
+            <button>more info</button>
+          </div>
+        </div>
+        <!-- end of tab -->
+
+        <!-- tab -->
+        <div id="tab3" class="tabcontent">
+          <div class="tab-img-left">
+            <img src="images/illustration-features-tab-3.svg" alt="">
+          </div>
+          <div class="tabcontent-right">
+            <h3>bookmark in one click</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas porro asperiores excepturi labore dolor dolores, quidem enim, possimus, officiis harum similique quasi.</p>
+            <button>more info</button>
+          </div>
+        </div>
+        <!-- end of tab -->
+      </div>
+      <!-- end of tabcontent -->
+    </section>
+    <!-- end features -->
+
+    <!-- extension -->
+    <section class="extension section-padding">
+      <!-- title -->
+      <div class="section-title flex">
+        <h3>Download the extension</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla officiis ad corrupti numquam distinctio nostrum quasi neque vero cum.</p>
+      </div>
+      <!-- end of title -->
+
+      <!-- extension items -->
+      <div class="extension-items flex">
+        <div class="item">
+          <img src="images/logo-chrome.svg" alt="">
+          <h4>Add to Chrome</h4>
+          <p class="minimum">Minimum version 6.2</p>
+          <div class="extension-btn">
+            <button>Add & Install Extension</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/logo-firefox.svg" alt="">
+          <h4>Add to Firefox</h4>
+          <p class="minimum">Minimum version 6.2</p>
+          <div class="extension-btn">
+            <button>Add & Install Extension</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/logo-opera.svg" alt="">
+          <h4>Add to opera</h4>
+          <p class="minimum">Minimum version 6.2</p>
+          <div class="extension-btn">
+            <button>Add & Install Extension</button>
+          </div>
+        </div>
+      </div>
+      <!-- end of extension items -->
+    </section>
+    <!-- end of extension -->
+
+
+    <!-- question -->
+    <section class="questions section-padding">
+      <!-- title -->
+      <div class="section-title flex">
+        <h3>Frequently Asked Questions</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla officiis ad corrupti numquam distinctio nostrum quasi neque vero cum.</p>
+      </div>
+      <!-- end of title -->
+
+      <!-- collapsible -->
+      <div class="collapsible-questions flex">
+        <div class="collap-btn">What is Bookmark</div>
+        <div class="collap-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, magnam vel dolore dolor magni esse illum, placeat quod sed quo labore voluptate laborum blanditiis aliquid asperiores odit accusantium est fugit.</p>
+        </div>
+        <div class="collap-btn">How can I request a new browser?</div>
+        <div class="collap-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, magnam vel dolore dolor magni esse illum, placeat quod sed quo labore voluptate laborum blanditiis aliquid asperiores odit accusantium est fugit.</p>
+        </div>
+        <div class="collap-btn">Is there a mobile app?</div>
+        <div class="collap-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, magnam vel dolore dolor magni esse illum, placeat quod sed quo labore voluptate laborum blanditiis aliquid asperiores odit accusantium est fugit.</p>
+        </div>
+        <div class="collap-btn">What about another Chromium browsers?</div>
+        <div class="collap-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, magnam vel dolore dolor magni esse illum, placeat quod sed quo labore voluptate laborum blanditiis aliquid asperiores odit accusantium est fugit.</p>
+        </div>
+      </div>
+      <!-- end of collapsible -->
+
+    </section>
+    <!-- end of question -->
+
+    <section class="contactus section-padding">
+      <!-- title -->
+      <div class="section-title flex">
+        <p>35.000 + ALREADY JOINED</p>
+        <h3>Stay up-to-day with what we're doing</h3>
+        <form class="contact-us-form">
+          <input id="email" type="email" name="email" placeholder="Enter your email address" required >
+          <input id="submit" type="submit" name="submit" value="Contact us">
+        </form>
+      </div>
+      <!-- end of title -->
+    </section>
+</body>
+<script type="text/javascript" src="./app.js"></script>
+</html>
